@@ -4,7 +4,8 @@ import TaskInput from "./components/TaskInput";
 import TaskList from "./components/TaskList";
 import ProgressBar from "./components/ProgessBar";
 
-const API = "http://localhost:8000/api";
+const API = "https://task-board-backend.onrender.com/api";
+
 
 function App() {
   const [tasks, setTasks] = useState([]);
